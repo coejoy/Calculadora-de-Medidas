@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Receitas</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="icon" href="calc.png">
+    
+</head>
+<body>
+    <div class="container">
+       <div class="calc">
+        <img src="img" alt="img" srcset="calc.png" id="calc">
+       </div>
+        <h1>Calculadora de Receitas</h1><br>
+
+        <h3>Qual será a quantidade que você vai preparar hoje?
+         
+            <input type="number" name="qnt" id="qnt">g
+        </h3> 
+
+        <h3>Qual o peso da receita original?
+            <input type="number" name="qnt1" id="qnt1">g
+        </h3>   
+
+        <p>Informe a quantidade de seus ingredientes  Obs: Será necessário colocar os dados em gramas, por ex: 1Kg = 1000g</p><br>
+
+        <div>
+
+            <h2>Ingrediente:&emsp;&ensp;Quantidade:</h2>
+
+            <div id="campos-container" class="cont">
+                <input type="text" name="text1" id="text1" placeholder="Ingrediente">
+                <input type="number" name="num1" id="num1"><br><br>
+            </div>
+
+        </div>
+        <div class="but">
+
+            <input type="button" value="+ " id="addButton">
+
+            <br>
+            <input type="button" value="Calcular" id="button">
+
+        </div>
+
+        <h3>Aqui aparecerá seu resultado...</h3>
+
+        <p id="res"></p>
+    </div>
+
+    <script src="home.js"></script>
+</body>
+</html>
+
+
+

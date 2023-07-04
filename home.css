@@ -1,0 +1,197 @@
+body {
+    text-align: center;
+    background-color: #445285;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+#calc {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+#qnt, #qnt1 {
+    width: 100%;
+    max-width: 52px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+#button {
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#addButton {
+    text-align: center;
+    width: 1cm;
+    height: 1cm;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+
+   
+}
+
+#res {
+    margin-top: 20px;
+    background-color: rgba(31, 35, 54, 0.308);
+    box-shadow: 5px 5px 5px black;
+    padding: 10px;
+}
+
+/* Estilos para telas menores que 600px */
+@media (max-width: 600px) {
+
+    body{
+        text-align: start;
+    }
+
+
+    .container {
+        max-width: 100%;
+        margin: 0;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+   h1{
+    font-size: 1.8rem;
+   } 
+
+   h2{
+    text-align: center;
+    font-size: 1.3rem;
+   }
+
+   #text1, #num1 {
+    width: 130px;
+   }
+
+   .cont{
+    text-align: center;
+   }
+
+    #calc{
+        width: 80%;
+        max-width: 150px;
+        height: auto;
+    }
+
+    .calc {
+        text-align: center;
+    }
+    
+    #qnt, #qnt1 {
+        width: 100%;
+        max-width: 40px;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
+    .but{
+        text-align: center;
+    }
+
+    #button {
+        background-color: black;
+        color: white;
+        margin-top: 20px;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    #addButton {
+        text-align: center;
+        width: 1cm;
+        height: 1cm;
+        background-color: black;
+        color: white;
+        border-radius: 50%;
+        border: none;
+        margin-top: 20px;
+        padding: 10px 20px;
+        cursor: pointer;
+
+       
+    }
+    
+    #res {
+        text-align: center;
+        margin-top: 20px;
+        background-color: rgba(31, 35, 54, 0.308);
+        box-shadow: 5px 5px 5px black;
+        padding: 10px;
+    }
+    
+}
+
+/* Estilos para telas menores que 400px */
+@media (max-width: 400px) {
+    .container {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    #calc {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+    }
+    
+    #qnt, #qnt1 {
+        width: 100%;
+        max-width: 48px;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+    
+   #button {
+        background-color: black;
+        color: white;
+        margin-top: 20px;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    #addButton {
+        text-align: center;
+        width: 1cm;
+        height: 1cm;
+        background-color: black;
+        color: white;
+        border-radius: 50%;
+        border: none;
+        margin-top: 20px;
+        padding: 10px 20px;
+        cursor: pointer;
+
+       
+    }
+    
+}
+
+
+
+
+
