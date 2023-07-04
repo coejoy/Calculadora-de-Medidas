@@ -85,6 +85,10 @@ body {
     width: 130px;
    }
 
+   .num, .text {
+    width: 110px;
+   }
+
    .cont{
     text-align: center;
    }
@@ -146,26 +150,61 @@ body {
 
 /* Estilos para telas menores que 400px */
 @media (max-width: 400px) {
-    .container {
-        max-width: 400px;
-        margin: 0 auto;
-        padding: 20px;
+    body{
+        text-align: start;
     }
-    
-    #calc {
-        width: 100%;
-        max-width: 200px;
+
+
+    .container {
+        max-width: 100%;
+        margin: 0;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+   h1{
+    font-size: 1.8rem;
+   } 
+
+   h2{
+    text-align: center;
+    font-size: 1.3rem;
+   }
+
+   #text1, #num1 {
+    width: 130px;
+   }
+
+   .num, .text {
+    width: 110px;
+   }
+
+   .cont{
+    text-align: center;
+   }
+
+    #calc{
+        width: 80%;
+        max-width: 150px;
         height: auto;
+    }
+
+    .calc {
+        text-align: center;
     }
     
     #qnt, #qnt1 {
         width: 100%;
-        max-width: 48px;
+        max-width: 40px;
         margin: 0 auto;
         box-sizing: border-box;
     }
-    
-   #button {
+
+    .but{
+        text-align: center;
+    }
+
+    #button {
         background-color: black;
         color: white;
         margin-top: 20px;
@@ -187,6 +226,14 @@ body {
         cursor: pointer;
 
        
+    }
+    
+    #res {
+        text-align: center;
+        margin-top: 20px;
+        background-color: rgba(31, 35, 54, 0.308);
+        box-shadow: 5px 5px 5px black;
+        padding: 10px;
     }
     
 }

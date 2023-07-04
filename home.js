@@ -10,6 +10,7 @@ function adicionarCampo() {
   textInput.type = "text";
   textInput.name = "text" + contador;
   textInput.id = "text" + contador;
+  textInput.className = "text";
   textInput.placeholder = "Ingrediente";
   container.appendChild(textInput);
 
@@ -21,6 +22,7 @@ function adicionarCampo() {
   numberInput.type = "number";
   numberInput.name = "num" + contador;
   numberInput.id = "num" + contador;
+  numberInput.className = "num";
   container.appendChild(numberInput);
 
   // Quebra de linha
